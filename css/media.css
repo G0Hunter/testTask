@@ -1,0 +1,115 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.sum-value ,.choose-send-open {
+    width: 270px;
+    margin: 0 0 15px 0;
+}
+.choose-wallet,
+.choose-wallet-open {
+    width: 180px;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.footer-menu,
+.open-footer-menu{
+	display: none;
+}
+.footer-menu-respons-wrap{
+    display: block;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 560px) {
+.offer-list-wrap,
+.header-top-item .top-button_exit,
+.header-top-item .top-button_setting,
+.header-top-item .top-button_support,
+.descript-wrap p:nth-child(-n+2),
+.share{
+	display: none;
+}
+.respons-menu-button{
+    display:inline-block;
+}
+.header-top-bar {
+    padding: 0;
+    position: relative;
+}
+.inner-top-bar {
+    width: 85%;
+    margin: 15px auto 0;
+}
+.header-top-logo {
+    float: none;
+    display: inline-block;
+    margin: 0px 30px;
+}
+.top-button_enter{
+	display: inline-block;
+	padding: 0;
+	line-height: 3;
+	margin-left:0;
+}
+.top-button_support img {
+    margin-left: 3px;
+}
+.give,
+.take{
+	display: block;
+	width: 100%;
+}
+.take::after{
+	content: "";
+}
+.choose-send-open{
+	top: 55px;
+}
+.choose-send-wrap, .enter-email {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+.choose-send-wrap span,
+.enter-email span{
+	display: block;
+	text-align: left;
+}
+.choose-send,.enter-email input[type="email"]{
+    width: 270px;
+    margin: 10px 0;
+}
+.aplication-form{
+	background: none;
+}
+.descript-wrap{
+    column-count: 1;
+}
+.descript h3 {
+	width: 70%;
+    left: 16%;
+}
+.about-text-share {
+    display: block;
+    margin-bottom: 15px;
+}
+.responsive-share{
+	display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+
+
+}
+
