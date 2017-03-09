@@ -20,7 +20,17 @@ for (var i = 0; i < this.childNodes.length; i++) {
     return arrNode;
 }
 \\\\\\\\\\\\\\\
-
+Node.prototype.insAfter = function(node) {
+  if( !def(this.parentNode) || !def(this.nextSibling)){
+       return;
+  }
+  else{
+       return this.parentNode.insertBefore(node, this.nextSibling);
+   }
+} 
 \\\\\\\\\\\\\\\
-
+Node.prototype.insBefore = function(node) {
+		if(def(this.parentNode))
+  		      return this.parentNode.insertBefore(node, this);
+}
 \\\\\\\\\\\\\\\
